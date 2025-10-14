@@ -6,7 +6,7 @@ public class App {
 
         System.out.print("How many favorite foods do you have? ");
         int numberOfFavoriteFood = scanner.nextInt();
-        // Empty array, must set the size
+        // Empty array, must set the size. It is a fixed array, it cannot grow or shrink
         String[] foods = new String[numberOfFavoriteFood];
         scanner.nextLine();
         for (int i = 0; i < foods.length; i++){
